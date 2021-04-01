@@ -37,9 +37,9 @@
   text-transform: uppercase;
   color: #ffffff;
   background-color: rgba(47, 48, 58, 0.8);
-}
 
-.abilities-item:hover .abilities-overlay,
-.abilities-item:focus .abilities-overlay {
-  transform: translateY(0);
+  .abilities-item:hover &,
+  .abilities-item:focus & {
+    transform: translateY(0);
+  }
 }
