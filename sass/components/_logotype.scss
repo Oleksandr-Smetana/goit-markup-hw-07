@@ -5,13 +5,13 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
-}
 
-.suplogo {
-  margin-right: 90px;
-  color: #000000;
-}
+  &_light-theme {
+    margin-right: 90px;
+    color: #000000;
+  }
 
-.sublogo {
-  color: white;
+  &_dark-theme {
+    color: #ffffff;
+  }
 }
