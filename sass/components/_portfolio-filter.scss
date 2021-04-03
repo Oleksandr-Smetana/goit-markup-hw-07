@@ -1,17 +1,17 @@
-.portfolio-filter-list {
+.filter-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 50px;
 }
 
-.portfolio-filter-item {
+.filter-list__item {
   &:not(:last-child) {
     margin-right: 8px;
   }
 }
 
-.portfolio-filter-button {
+.filter-list__button {
   padding: 6px 22px;
   background-color: #f5f4fa;
   font-family: inherit;

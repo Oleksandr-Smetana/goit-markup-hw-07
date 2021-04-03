@@ -6,28 +6,28 @@
 
 .footer-wrapper {
   display: flex;
-
-  & b {
-    display: block;
-    padding-top: 12px;
-    padding-bottom: 20px;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #ffffff;
-  }
 }
 
-.address-item {
+.slogan {
+  display: block;
+  padding-top: 12px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.address {
   margin-top: 20px;
-}
-
-.address-link {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+.address__link {
   color: var(--white-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -37,14 +37,11 @@
   }
 }
 
-.connect-item {
+.contacts {
   margin-top: 10px;
 }
 
-.connect-link {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+.contacts__link {
   color: rgba(255, 255, 255, 0.6);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -92,7 +89,7 @@
   }
 }
 
-.footer-form-button {
+.footer-button {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -113,7 +110,7 @@
   }
 }
 
-.footer-form-button-text {
+.footer-button__text {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -121,7 +118,7 @@
   color: var(--white-color);
 }
 
-.footer-form-button-icon {
+.footer-button__icon {
   width: 24px;
   height: 24px;
   fill: var(--white-color);
